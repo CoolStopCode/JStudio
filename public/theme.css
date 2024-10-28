@@ -1,0 +1,22 @@
+:root {
+    --accent-color: #FF5722;
+    --background-color: #121212;
+    --text-color: #ffffff;
+    --hover-color: #e64a19;
+    --font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+}
+
+button {
+    background-color: var(--accent-color);
+    color: var(--text-color);
+}
+
+button:hover {
+    background-color: var(--hover-color);
+}
